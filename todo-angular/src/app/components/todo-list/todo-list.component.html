@@ -1,0 +1,24 @@
+<div class="btn-group">
+        <button 
+        (click)="addTodo()"
+        class="btn add">
+            Add todo
+        </button>
+        <button 
+        [disabled]="todos.length <= 0"
+        (click)="deleteLastTodo()"
+        class="btn remove">
+            Remove
+        </button>
+        <button 
+        [disabled]="todos.length <= 0"
+        (click)="clearTodos()"
+        class="btn clear">
+            Clear
+        </button>
+    </div>
+<div class="todo-list" >
+    <ul class="list-group" *ngFor="let todo of todos">
+        <li>{{todo.title}}</li>
+    </ul>
+</div>
