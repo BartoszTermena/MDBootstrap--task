@@ -1,1 +1,1 @@
-## Created TODO App with Reactjs, Angular and Javascript
+## Created TODO App with Reactjs and Angular
