@@ -1,6 +1,6 @@
 ## Created TODO App with Angular, used localStorage to save app state
 
-## Live demo: https://todo-react-be563.firebaseapp.com/
+## Live demo: https://todo-angular-be563.netlify.com/
 
 ### How to run:
 
