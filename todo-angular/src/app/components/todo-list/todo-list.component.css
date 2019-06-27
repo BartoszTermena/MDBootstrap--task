@@ -1,10 +1,12 @@
 .todo-list {
     width: 90%;
-    max-height:550px;
+    height: 530px;
     overflow-y:auto;
     display: inline-block;
     background-color: #eee;
+    border: 5px solid rgba(73, 204, 249, 1.0);
 }
+
 .list-group {
     margin: 0;
     padding: 0;
@@ -15,18 +17,12 @@
     padding: 12px 8px 12px 40px;
     background: #eee;
     font-size: 18px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 ul li:nth-child(odd) {
     background: #f9f9f9;
 }
 
-
 .btn-group {
-    z-index: 2;
     position: relative;
     margin: 1rem 1rem;
     padding: 1rem 1rem;
