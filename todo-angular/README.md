@@ -1,4 +1,4 @@
-## Created TODO App with Angular
+## Created TODO App with Angular, used localStorage to save app state
 
 ## Live demo: https://todo-react-be563.firebaseapp.com/
 
